@@ -1,6 +1,28 @@
 # MillionSongDataset
 This is a scalable computing project done as part of the course work on pyspark
 
+Distributed Machine Learning Project 
+ Analytical tools: HDFS, Apache Spark. 
+ Programming language: PySpark (Python API for Spark) 
+ Data set: Million Song Data Set 
+ To increase parallelism of Spark processing custom partitioning of the 
+data frame is used. 
+ Schemas defined to load the data (from different file formats), by 
+mapping attribute types to pyspark.sql.types objects. 
+ Exploratory Data Analysis on Spark data frames or by converting to 
+Panda data frames as required. 
+ To extend the PySpark build in capabilities PySpark UDF is used. 
+ Data sets were merged, and data preprocessing done on audio 
+features, such as sparse vectors handling, dimensional reduction, 
+imputation, normalization, standardization, Index encoding etc. 
+ To handle class imbalance on training data, Random Under 
+resampling of the majority class is considered. 
+ Collaborative filtering (an unsupervised machine learning method) is 
+used to determine similar users and songs based on their combined 
+play history. Matrix factorization algorithm, ALS (recommender) from
+spark.ml library is used to train the model. Performance of the model is 
+found to be average. 
+
 In this assignment we will study a collection of datasets referred to as the Million Song Dataset (MSD),
 a project initiated by The Echo Nest and LabROSA. The Echo Nest was a research spin-off from the
 MIT Media Lab established with the goal of understanding the audio and textual content of recorded
