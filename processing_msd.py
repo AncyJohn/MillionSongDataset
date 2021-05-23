@@ -1,21 +1,23 @@
-hdfs dfs -ls /data/msd
-hdfs dfs -cat /data/msd/audio/attributes/*.csv | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-jmir-area-of-moments-all-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-jmir-lpc-all-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-jmir-methods-of-moments-all-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-jmir-mfcc-all-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-jmir-spectral-all-all-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-jmir-spectral-derivatives-all-all-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-marsyas-timbral-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-mvd-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-rh-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-rp-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-ssd-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-trh-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/features/msd-tssd-v1.0.csv/*.csv.gz | gunzip | wc -l
-hdfs dfs -cat /data/msd/audio/statistics/*.csv.gz | gunzip | wc -l
-hdfs dfs -ls /data/msd/genre
-hdfs dfs -cat  /data/msd/genre/msd-topMAGD-genreAssignment.tsv | head
+#HDFS Commands
+#hdfs dfs -ls /data/msd
+#hdfs dfs -cat /data/msd/audio/attributes/*.csv | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-jmir-area-of-moments-all-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-jmir-lpc-all-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-jmir-methods-of-moments-all-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-jmir-mfcc-all-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-jmir-spectral-all-all-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-jmir-spectral-derivatives-all-all-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-marsyas-timbral-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-mvd-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-rh-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-rp-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-ssd-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-trh-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/features/msd-tssd-v1.0.csv/*.csv.gz | gunzip | wc -l
+#hdfs dfs -cat /data/msd/audio/statistics/*.csv.gz | gunzip | wc -l
+#hdfs dfs -ls /data/msd/genre
+#hdfs dfs -cat  /data/msd/genre/msd-topMAGD-genreAssignment.tsv | head
+
 # Dfining schema for each dataset
 
 import sys
