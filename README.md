@@ -29,7 +29,7 @@ Collaborative filtering (an unsupervised machine learning method) is used to det
 Matrix factorization algorithm, ALS (recommender) from spark.ml library is used to train the model. Performance of the model is 
 found to be average. 
 
-In this assignment we did study on a collection of datasets referred to as the Million Song Dataset (MSD),
+In this assignment, we did study on a collection of datasets referred to as the Million Song Dataset (MSD),
 a project initiated by The Echo Nest and LabROSA. The Echo Nest was a research spin-off from the
 MIT Media Lab established with the goal of understanding the audio and textual content of recorded
 music, and was acquired by Spotify after 10 years for 50 million Euro.
