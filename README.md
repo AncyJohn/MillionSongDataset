@@ -1,4 +1,4 @@
-# SongRecommendationSystem
+# Song Recommendation System
 This is a scalable computing project done as part of the course curriculum on pyspark
 
 Distributed Machine Learning Project.
