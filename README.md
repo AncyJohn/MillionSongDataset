@@ -27,7 +27,7 @@ To handle class imbalance on training data, Random Under resampling of the major
 Collaborative filtering (an unsupervised machine learning method) is used to determine similar users and songs based on their combined play history.
 
 Matrix factorization algorithm, ALS (recommender) from spark.ml library is used to train the model. Performance of the model is 
-found to be average. 
+found to be average. Recommender system is very useful for online retailers to drive sales.
 
 In this assignment, we did study on a collection of datasets referred to as the Million Song Dataset (MSD),
 a project initiated by The Echo Nest and LabROSA. The Echo Nest was a research spin-off from the
